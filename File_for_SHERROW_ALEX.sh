@@ -7,7 +7,7 @@ echo "Step 3"
 touch /tmp/AlexSherrow.txt
 wc -w file > /tmp/AlexSherrow.txt
 echo "Step 5"
-chmod 711  AlexSherrow.txt
+chmod 711  /tmp/AlexSherrow.txt
 echo "Step 6"
 mkdir AlexSherrow
 echo "Step 7"
