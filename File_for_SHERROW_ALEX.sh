@@ -16,9 +16,9 @@ echo "Step 8"
 cp AlexSherrowWordCount.txt
 echo "Step 9 (DO LATER)"
 echo "Step 11"
-cp unix1/File_for_SHERROW_ALEX.sh .
+cp File_for_SHERROW_ALEX.sh .
 echo "Step 12"
 echo "Step 13"
-uuencode attachment-file | mail -s "Test" "sherrowa226@gmail.com"
+echo "Mail body" | mail -s "Mail subject" sherrowa226@gmail.com
 echo "Step 14"
 cp YourName ~/githubtask/unix/YourName_submit
