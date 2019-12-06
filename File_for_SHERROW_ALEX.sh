@@ -4,7 +4,7 @@ file='filetest'
 echo "Step 2"
 echo  "This is the input filename string: $file"
 echo "Step 3"
-touch AlexSherrowWordCount
+touch AlexSherrowWordCount.txt
 wc -w file > AlexSherrowWordCount.txt
 echo "Step 5"
 chmod 711  AlexSherrowWordCount.txt
