@@ -18,7 +18,6 @@ echo "Step 11"
 cp File_for_SHERROW_ALEX.sh .
 echo "Step 12"
 echo "Step 13"
-echo "Mail body" | mail -s "Mail subject" "tcht@iup.edu"
 mail -s "subject here" tcht@iup.edu <<< "message"
 echo "Step 14"
 cp AlexSherrow/unix1/AlexSherrow_submit
