@@ -22,4 +22,4 @@ echo "Step 12"
 echo "Step 13"
 echo "Mail body" | mail -s "Mail subject" tcht@iup.edu
 echo "Step 14"
-cp AlexSherrow/githubtask/unix1/AlexSherrow_submit
+cp AlexSherrow/unix1/AlexSherrow_submit
