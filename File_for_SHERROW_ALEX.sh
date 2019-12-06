@@ -19,6 +19,6 @@ echo "Step 11"
 cp File_for_SHERROW_ALEX.sh .
 echo "Step 12"
 echo "Step 13"
-echo "Mail body" | mail -s "Mail subject" sherrowa226@gmail.com
+echo "Mail body" | mail -s "Mail subject" tcht@iup.edu
 echo "Step 14"
 cp YourName ~/githubtask/unix/YourName_submit
