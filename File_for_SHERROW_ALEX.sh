@@ -1,6 +1,5 @@
 #!/bin/bash
 echo "Step 1"
-file='test file lol'
 
 echo "Step 2"
 echo  "This is the input filename string: $file"
