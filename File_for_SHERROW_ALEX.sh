@@ -1,4 +1,4 @@
-#!/bin/sh -x
+#!/bin/bash
 echo "Step 1"
 file='test file lol'
 
