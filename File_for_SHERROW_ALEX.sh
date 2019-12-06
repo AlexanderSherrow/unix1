@@ -4,7 +4,7 @@ file="Test"
 echo "Step 2"
 echo  "This is the input filename string: $file"
 echo "Step 3"
-wc -w $file
+wc -w "$file"
 echo "Step 5"
 chmod 711  /tmp/AlexSherrow.txt
 echo "Step 6"
