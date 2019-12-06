@@ -1,3 +1,4 @@
+#!/bin/sh -x
 echo "Step 1"
 file='test file lol'
 
