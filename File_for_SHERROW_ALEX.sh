@@ -4,8 +4,8 @@ file='filetest'
 echo "Step 2"
 echo  "This is the input filename string: $file"
 echo "Step 3"
-touch AlexSherrowWordCount.txt
-wc -w file > AlexSherrowWordCount.txt
+touch AlexSherrow.txt
+wc -w file > /tmp/AlexSherrow.txt
 echo "Step 5"
 chmod 711  AlexSherrowWordCount.txt
 echo "Step 6"
@@ -13,7 +13,7 @@ mkdir AlexSherrow
 echo "Step 7"
 cd AlexSherrow
 echo "Step 8"
-cp AlexSherrowWordCount.txt .
+cp /tmp/AlexSherrow.txt .
 echo "Step 9 (DO LATER)"
 echo "Step 11"
 cp File_for_SHERROW_ALEX.sh .
@@ -21,4 +21,4 @@ echo "Step 12"
 echo "Step 13"
 echo "Mail body" | mail -s "Mail subject" tcht@iup.edu
 echo "Step 14"
-cp YourName ~/githubtask/unix/YourName_submit
+cp AlexSherrow/githubtask/unix/AlexSherrow_submit
