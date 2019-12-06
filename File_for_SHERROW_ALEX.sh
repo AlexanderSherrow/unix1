@@ -5,15 +5,15 @@ echo "Step 2"
 echo  "This is the input filename string: $file"
 echo "Step 3"
 touch AlexSherrowWordCount
-wc -w file > file/tmp/AlexSherrowWordCount
+wc -w file > AlexSherrowWordCount
 echo "Step 5"
-chmod 711  file/tmp/AlexSherrowWordCount
+chmod 711  AlexSherrowWordCount
 echo "Step 6"
 mkdir AlexSherrow
 echo "Step 7"
-cd AlexDirectory || exit
+cd AlexSherrow || exit
 echo "Step 8"
-cp file/tmp/ALexSherrowWordCount .
+cp ALexSherrowWordCount .
 echo "Step 9 (DO LATER)"
 echo "Step 11"
 cp unix1/File_for_SHERROW_ALEX.sh .
