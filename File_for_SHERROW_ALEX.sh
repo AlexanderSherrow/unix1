@@ -1,9 +1,10 @@
 #!/bin/bash
 echo "Step 1"
-file='test'
+file='/unix1/test'
 echo "Step 2"
 echo  "This is the input filename string: $file"
 echo "Step 3"
+mkdir tmp
 touch /tmp/AlexSherrow.txt
 wc -w file > /tmp/AlexSherrow.txt
 echo "Step 5"
