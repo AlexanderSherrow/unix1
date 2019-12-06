@@ -17,4 +17,8 @@ mkdir AlexDirectory
 echo "Step 7"
 cd AlexDirectory || exit
 
+echo "Step 8"
+cp file.doc newfile.doc
+ls -l *.doc
+
 cp YourName ~/githubtask/unix/YourName_submit
