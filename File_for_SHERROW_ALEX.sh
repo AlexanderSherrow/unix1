@@ -5,7 +5,6 @@ echo "Step 2"
 echo  "This is the input filename string: $file"
 echo "Step 3"
 mkdir tmp
-touch /tmp/AlexSherrow.txt
 pwd
 wc -w Test
 echo "Step 5"
