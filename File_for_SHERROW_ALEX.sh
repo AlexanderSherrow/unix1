@@ -13,7 +13,7 @@ mkdir AlexSherrow
 echo "Step 7"
 cd AlexSherrow
 echo "Step 8"
-cp AlexSherrowWordCount.txt
+cp AlexSherrowWordCount.txt .
 echo "Step 9 (DO LATER)"
 echo "Step 11"
 cp File_for_SHERROW_ALEX.sh .
