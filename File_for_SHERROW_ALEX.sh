@@ -1,6 +1,6 @@
 #!/bin/sh
 echo "Step 1"
-file='Test'
+file="Test"
 echo "Step 2"
 echo  "This is the input filename string: $file"
 echo "Step 3"
