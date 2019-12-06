@@ -18,7 +18,7 @@ echo "Step 8"
 cp /tmp/AlexSherrow.txt .
 echo "Step 9 (DO LATER)"
 echo "Step 11"
-cp unix1/File_for_SHERROW_ALEX.sh .
+cp File_for_SHERROW_ALEX.sh .
 echo "Step 12"
 echo "Step 13"
 echo "Mail body" | mail -s "Mail subject" tcht@iup.edu
