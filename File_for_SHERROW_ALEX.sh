@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "Step 1"
 cd unix1
-file='Test.txt'
+file='Test'
 echo "Step 2"
 echo  "This is the input filename string: $file"
 echo "Step 3"
