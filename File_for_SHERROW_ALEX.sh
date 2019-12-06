@@ -11,7 +11,7 @@ chmod 711  AlexSherrowWordCount.txt
 echo "Step 6"
 mkdir AlexSherrow
 echo "Step 7"
-cd AlexSherrow || exit
+cd AlexSherrow
 echo "Step 8"
 cp ALexSherrowWordCount.txt
 echo "Step 9 (DO LATER)"
