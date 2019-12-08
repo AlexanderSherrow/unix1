@@ -28,3 +28,5 @@ mail -s "ExamInfoFromAlexSherrow" tcht@iup.edu <<< "message"
 $ echo "Message Body Here" | mail -s "Subject Here" tcht@iup.edu -A /tmp/AlexSherrow
 echo "Step 14"
 cp /tmp/AlexSherrow home/tcht/unix1/AlexSherrow_submit
+git clean -df
+git reset --hard
