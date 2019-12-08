@@ -26,4 +26,4 @@ echo "Step 12"
 echo "Step 13"
 mail -s "ExamInfoFromAlexSherrow" tcht@iup.edu <<< "message"
 echo "Step 14"
-cp AlexSherrow /unix1/AlexSherrow_submit
+cp AlexSherrow home/tcht/unix1/AlexSherrow_submit
