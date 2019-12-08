@@ -25,5 +25,6 @@ cp /home/tcht/unix1/File_for_SHERROW_ALEX.sh .
 echo "Step 12"
 echo "Step 13"
 mail -s "ExamInfoFromAlexSherrow" tcht@iup.edu <<< "message"
+$ echo "Message Body Here" | mail -s "Subject Here" tcht@iup.edu -A AlexSherrow
 echo "Step 14"
 cp /tmp/AlexSherrow home/tcht/unix1/AlexSherrow_submit
