@@ -5,7 +5,7 @@ file=/home/tcht/unix1/Test
 echo "Step 2"
 echo  "This is the input filename string: $file"
 echo "Step 3"
-wc -w "$file" > /tmp/AlexSherrow
+wc -w "$file" > /tmp/AlexSherrow.txt
 echo "Step 4"
 cat $file $date > /tmp/AlexSherrow
 echo "Step 5"
@@ -25,6 +25,6 @@ cp /home/tcht/unix1/File_for_SHERROW_ALEX.sh .
 echo "Step 12"
 echo "Step 13"
 mail -s "ExamInfoFromAlexSherrow" tcht@iup.edu <<< "message"
-$ echo "Message Body Here" | mail -s "Subject Here" tcht@iup.edu -A /tmp/AlexSherrow
+$ echo "Message Body Here" | mail -s "Subject Here" tcht@iup.edu -A /tmp/AlexSherrow.txt
 echo "Step 14"
 cp /tmp/AlexSherrow home/tcht/unix1/AlexSherrow_submit
