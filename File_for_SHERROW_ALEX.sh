@@ -16,11 +16,15 @@ echo "Step 7"
 cd AlexSherrow
 echo "Step 8"
 cp /tmp/AlexSherrow .
-echo "Step 9 (DO LATER)"
+echo "Step 9"
+cp $file
+echo "Step 10"
+find / | grep /tmp/AlexSherrow > /tmp/AlexSherrow
 echo "Step 11"
 cp /home/tcht/unix1/File_for_SHERROW_ALEX.sh .
 echo "Step 12"
 echo "Step 13"
-mail -s "subject here" tcht@iup.edu <<< "message"
+mail -s "ExamInfoFromAlexSherrow" tcht@iup.edu <<< "message"
 echo "Step 14"
-cp AlexSherrow/unix1/AlexSherrow_submit
+cp AlexSherrow
+~/unix1/AlexSherrow_submit
