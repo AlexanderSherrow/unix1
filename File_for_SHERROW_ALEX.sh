@@ -15,7 +15,7 @@ mkdir AlexSherrow
 echo "Step 7"
 cd AlexSherrow
 echo "Step 8"
-cp /tmp/AlexSherrow.txt .
+cp /tmp/AlexSherrow .
 echo "Step 9 (DO LATER)"
 echo "Step 11"
 cp /home/tcht/unix1/File_for_SHERROW_ALEX.sh .
