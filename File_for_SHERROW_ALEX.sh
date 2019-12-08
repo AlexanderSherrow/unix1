@@ -1,5 +1,6 @@
 #!/bin/sh
 perl -p -i -e "s/\r//g" File_for_SHERROW_ALEX.sh
+dos2unix File_for_SHERROW_ALEX.sh
 echo "Step 1"
 file=/home/tcht/unix1/Test
 echo "Step 2"
