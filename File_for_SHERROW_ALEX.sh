@@ -4,7 +4,8 @@ file=/home/tcht/unix1/Test
 echo "Step 2"
 echo  "This is the input filename string: $file"
 echo "Step 3"
-wc -w /home/tcht/unix1/Test
+ls -1 $file
+wc -w "$file"
 echo "Step 4"
 $date
 cat Test.txt $date > Test.txt
