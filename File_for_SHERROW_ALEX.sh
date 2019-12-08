@@ -1,6 +1,6 @@
 #!/bin/sh
 echo "Step 1"
-file="/home/tcht/unix1/text.txt"
+file=/home/tcht/unix1/text.txt
 echo "Step 2"
 echo  "This is the input filename string: $file"
 echo "Step 3"
