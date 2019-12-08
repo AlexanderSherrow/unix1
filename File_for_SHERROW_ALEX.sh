@@ -4,6 +4,7 @@ file=/home/tcht/unix1/Test
 echo "Step 2"
 echo  "This is the input filename string: $file"
 echo "Step 3"
+/usr/bin/wc -w /home/tcht/unix1/Test
 wc -w Test
 echo "Step 5"
 chmod 711  /tmp/AlexSherrow.txt
