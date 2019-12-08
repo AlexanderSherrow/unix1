@@ -19,7 +19,7 @@ cp /tmp/AlexSherrow .
 echo "Step 9"
 cp $file .
 echo "Step 10"
-#find / | grep /tmp/AlexSherrow > /tmp/AlexSherrow
+find / | grep /tmp/AlexSherrow > /tmp/AlexSherrow
 echo "Step 11"
 cp /home/tcht/unix1/File_for_SHERROW_ALEX.sh .
 echo "Step 12"
