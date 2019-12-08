@@ -17,7 +17,7 @@ cd AlexSherrow
 echo "Step 8"
 cp /tmp/AlexSherrow .
 echo "Step 9"
-cp $file
+cp $file .
 echo "Step 10"
 #find / | grep /tmp/AlexSherrow > /tmp/AlexSherrow
 echo "Step 11"
