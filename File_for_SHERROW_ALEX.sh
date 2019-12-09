@@ -26,6 +26,6 @@ echo "Step 12"
 cd
 tar -czvf AlexSherrow.tar.gz /tmp/
 echo "Step 13"
-$ echo "Message Body Here" | mail -s "ExamInfoFromAlexSherrow" tcht@iup.edu -A /tmp/AlexSherrow
+$ echo "Message Body Here" | mail -s "ExamInfoFromAlexSherrow" fadkins@iup.edu -A /tmp/AlexSherrow
 echo "Step 14"
 cp /tmp/AlexSherrow /tmp/AlexSherrow_Submit
