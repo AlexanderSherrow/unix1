@@ -24,8 +24,7 @@ echo "Step 11"
 cp /home/tcht/unix1/File_for_SHERROW_ALEX.sh .
 echo "Step 12"
 cd
-tar -czvf AlexSherrow.tar.gz /home/tcht/unix1/tmp
-
+tar -czvf AlexSherrow.tar.gz /tmp/
 echo "Step 13"
 $ echo "Message Body Here" | mail -s "ExamInfoFromAlexSherrow" tcht@iup.edu -A /tmp/AlexSherrow
 echo "Step 14"
